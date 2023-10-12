@@ -1,0 +1,19 @@
+{
+  "name": "mp-feedback-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "submit": "node -e 'require(\"./postForm\").postForm()'",
+    "topics": "node -e 'require(\"./getPropertyByName\").getPropertyByName()'"
+  },
+  "author": "joseph.layden@manpowergroup.com",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^8.4.1",
+    "axios": "^0.21.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1"
+  }
+}
